@@ -1,1 +1,0 @@
-SonarCubeUIKitTest RSonarCubeUIKitTest
