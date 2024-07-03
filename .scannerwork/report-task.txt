@@ -2,5 +2,5 @@ projectKey=SonarCubeUIKitTest
 serverUrl=http://localhost:9000
 serverVersion=10.6.0.92116
 dashboardUrl=http://localhost:9000/dashboard?id=SonarCubeUIKitTest
-ceTaskId=13a7fdaa-657a-4a73-ac0f-07c2ba12de1b
-ceTaskUrl=http://localhost:9000/api/ce/task?id=13a7fdaa-657a-4a73-ac0f-07c2ba12de1b
+ceTaskId=90cb41d3-c694-41b5-b605-330cdf5b873a
+ceTaskUrl=http://localhost:9000/api/ce/task?id=90cb41d3-c694-41b5-b605-330cdf5b873a
