@@ -22,6 +22,8 @@
 		3483E6742C35420A00ABDEF2 /* .github:workflows:build.yml in Resources */ = {isa = PBXBuildFile; fileRef = 3483E6732C35420A00ABDEF2 /* .github:workflows:build.yml */; };
 		3483E6762C35438200ABDEF2 /* MassiveClassNo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3483E6752C35438200ABDEF2 /* MassiveClassNo2.swift */; };
 		3483E6782C354B9500ABDEF2 /* ExampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3483E6772C354B9500ABDEF2 /* ExampleClass.swift */; };
+		3483E67A2C3551A100ABDEF2 /* .swiftlint in Resources */ = {isa = PBXBuildFile; fileRef = 3483E6792C3551A100ABDEF2 /* .swiftlint */; };
+		3483E67E2C3554CE00ABDEF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3483E67D2C3554CE00ABDEF2 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		3483E6732C35420A00ABDEF2 /* .github:workflows:build.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = ".github:workflows:build.yml"; sourceTree = "<group>"; };
 		3483E6752C35438200ABDEF2 /* MassiveClassNo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassiveClassNo2.swift; sourceTree = "<group>"; };
 		3483E6772C354B9500ABDEF2 /* ExampleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleClass.swift; sourceTree = "<group>"; };
+		3483E6792C3551A100ABDEF2 /* .swiftlint */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint; sourceTree = "<group>"; };
+		3483E67D2C3554CE00ABDEF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 		347EBE772C2EA60100CBF8A6 = {
 			isa = PBXGroup;
 			children = (
+				3483E67D2C3554CE00ABDEF2 /* ViewController.swift */,
 				3483E6772C354B9500ABDEF2 /* ExampleClass.swift */,
 				3483E6752C35438200ABDEF2 /* MassiveClassNo2.swift */,
 				3483E6732C35420A00ABDEF2 /* .github:workflows:build.yml */,
@@ -124,6 +129,7 @@
 				347EBE8E2C2EA60400CBF8A6 /* LaunchScreen.storyboard */,
 				347EBE912C2EA60400CBF8A6 /* Info.plist */,
 				347EBEB32C32D4C000CBF8A6 /* MassiveClass.swift */,
+				3483E6792C3551A100ABDEF2 /* .swiftlint */,
 			);
 			path = SonarCubeUIKitTest;
 			sourceTree = "<group>";
@@ -252,6 +258,7 @@
 				3483E6742C35420A00ABDEF2 /* .github:workflows:build.yml in Resources */,
 				3483E6722C34208C00ABDEF2 /* .swiftlint.yml in Resources */,
 				347EBE8D2C2EA60400CBF8A6 /* Assets.xcassets in Resources */,
+				3483E67A2C3551A100ABDEF2 /* .swiftlint in Resources */,
 				347EBE902C2EA60400CBF8A6 /* Base in Resources */,
 				3483E6702C341F6A00ABDEF2 /* sonar-project.properties in Resources */,
 				347EBE8B2C2EA60100CBF8A6 /* Base in Resources */,
@@ -283,6 +290,7 @@
 				3483E6782C354B9500ABDEF2 /* ExampleClass.swift in Sources */,
 				347EBE842C2EA60100CBF8A6 /* AppDelegate.swift in Sources */,
 				347EBE862C2EA60100CBF8A6 /* SceneDelegate.swift in Sources */,
+				3483E67E2C3554CE00ABDEF2 /* ViewController.swift in Sources */,
 				347EBEB42C32D4C000CBF8A6 /* MassiveClass.swift in Sources */,
 				3483E6762C35438200ABDEF2 /* MassiveClassNo2.swift in Sources */,
 			);
