@@ -61,13 +61,13 @@ Project server settings:
   - sonar.yaml.file.suffixes=.yaml,.yml
 Project scanner properties:
   - sonar.host.url=http://localhost:9000
-  - sonar.projectBaseDir=/Users/bojana/Desktop/untitled folder/SonarCubeUIKitTest
+  - sonar.projectBaseDir=/Users/bojana/Desktop/untitled folder/SonarCubeUIKitTest/SonarCubeUIKitTest
   - sonar.projectKey=SonarCubeUIKitTest
   - sonar.scanner.apiBaseUrl=http://localhost:9000/api/v2
   - sonar.scanner.app=ScannerCLI
   - sonar.scanner.appVersion=6.1.0.4477
   - sonar.scanner.arch=arm64
-  - sonar.scanner.bootstrapStartTime=1719995589940
+  - sonar.scanner.bootstrapStartTime=1719995672627
   - sonar.scanner.home=/opt/homebrew/Cellar/sonar-scanner/6.1.0.4477/libexec
   - sonar.scanner.os=macos
   - sonar.scanner.wasEngineCacheHit=true
@@ -75,4 +75,4 @@ Project scanner properties:
   - sonar.sources=.
   - sonar.token=******
   - sonar.verbose=true
-  - sonar.working.directory=/Users/bojana/Desktop/untitled folder/SonarCubeUIKitTest/.scannerwork
+  - sonar.working.directory=/Users/bojana/Desktop/untitled folder/SonarCubeUIKitTest/SonarCubeUIKitTest/.scannerwork

@@ -1,4 +1,4 @@
-ζΨη½‡2SonarCubeUIKitTest(0:R
+°ήμ½‡2SonarCubeUIKitTest(0:R
 
 kubernetesD
 $c78e536f-3b28-4c44-a247-ebdb02f30e36	Sonar way
@@ -62,4 +62,4 @@ $fb3ead21-1c3d-4b5d-ad6a-0c8908d3f3ae	Sonar wayts °Π™‡2B
 iac
 iacΟ§Π™‡2B
 text
-textΡ§Π™‡2j(3f18c4ebccc53e14ab2074e67038988b58ed60f4
+textΡ§Π™‡2bSonarCubeUIKitTestj(3f18c4ebccc53e14ab2074e67038988b58ed60f4
