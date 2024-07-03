@@ -80,6 +80,673 @@ class MassiveClass {
     deinit {
         print("Deinitializing MassiveClass instance for \(name)")
     }
+    
+    var num: Int = 0
+        var str: String = ""
+
+        // Ova promjenjiva ima ime kraće od 4 karaktera što nije preporučljivo.
+        var x: Double = 0.0
+    
+    var x1: Double = 0.0
+    var x3: Double = 0.0
+    var x4: Double = 0.0
+    var x5: Double = 0.0
+
+      
+
+        // Metoda koja ima mnogo parametara, također loša praksa.
+        func doSomethingWith(parameters: Int, anotherParameter: String, thirdParameter: Bool, andMoreParameters: Double, parameters1: Int, anotherParameter1: String, thirdParameter1: Bool, andMoreParameters2: Double, parameters2: Int, anotherParameter2: String, thirdParameter3: Bool, andMoreParameters3: Double, parameters3: Int, anotherParameter4: String, thirdParameter4: Bool, andMoreParameters4: Double, parameters5: Int, anotherParameter9: String, thirdParameter9: Bool, andMoreParameter5s: Double, anotherParameter6: String, thirdParameter6: Bool, andMoreParameters6: Double,parameters7: Int, anotherParameter7: String, thirdParameter7: Bool, andMoreParameters8: Double) {
+            // Implementacija metode ide ovdje
+        }
+
+        // Metoda koja ima puno parametara i/ili previše nivoa ugniježđenosti, što također predstavlja code smell.
+        func anotherMethod(withParameter1 param1: Int, parameter2 param2: String) {
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+            if param1 > 0 {
+                for _ in 1...param1 {
+                    print("Nested loop")
+                    if param2.count > 5 {
+                        print("Nested if condition")
+                    }
+                }
+            }
+        }
+
+        // Primer metode koja ima dugačku listu argumenta, što može biti code smell.
+        func processUserData(username: String, email: String, age: Int, address: String, phoneNumber: String, occupation: String) {
+            // Obrada podataka korisnika
+        }
 }
 
 

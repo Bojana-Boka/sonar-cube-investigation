@@ -21,6 +21,7 @@
 		3483E6722C34208C00ABDEF2 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 3483E6712C34208C00ABDEF2 /* .swiftlint.yml */; };
 		3483E6742C35420A00ABDEF2 /* .github:workflows:build.yml in Resources */ = {isa = PBXBuildFile; fileRef = 3483E6732C35420A00ABDEF2 /* .github:workflows:build.yml */; };
 		3483E6762C35438200ABDEF2 /* MassiveClassNo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3483E6752C35438200ABDEF2 /* MassiveClassNo2.swift */; };
+		3483E6782C354B9500ABDEF2 /* ExampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3483E6772C354B9500ABDEF2 /* ExampleClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		3483E6712C34208C00ABDEF2 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		3483E6732C35420A00ABDEF2 /* .github:workflows:build.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = ".github:workflows:build.yml"; sourceTree = "<group>"; };
 		3483E6752C35438200ABDEF2 /* MassiveClassNo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassiveClassNo2.swift; sourceTree = "<group>"; };
+		3483E6772C354B9500ABDEF2 /* ExampleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		347EBE772C2EA60100CBF8A6 = {
 			isa = PBXGroup;
 			children = (
+				3483E6772C354B9500ABDEF2 /* ExampleClass.swift */,
 				3483E6752C35438200ABDEF2 /* MassiveClassNo2.swift */,
 				3483E6732C35420A00ABDEF2 /* .github:workflows:build.yml */,
 				3483E6712C34208C00ABDEF2 /* .swiftlint.yml */,
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				347EBE882C2EA60100CBF8A6 /* ViewController.swift in Sources */,
+				3483E6782C354B9500ABDEF2 /* ExampleClass.swift in Sources */,
 				347EBE842C2EA60100CBF8A6 /* AppDelegate.swift in Sources */,
 				347EBE862C2EA60100CBF8A6 /* SceneDelegate.swift in Sources */,
 				347EBEB42C32D4C000CBF8A6 /* MassiveClass.swift in Sources */,
