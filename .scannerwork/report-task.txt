@@ -2,5 +2,5 @@ projectKey=SonarQubeInvestigationSwift
 serverUrl=http://localhost:9000
 serverVersion=10.6.0.92116
 dashboardUrl=http://localhost:9000/dashboard?id=SonarQubeInvestigationSwift
-ceTaskId=d1fb0f00-0cda-462e-b10f-298e733f8ef7
-ceTaskUrl=http://localhost:9000/api/ce/task?id=d1fb0f00-0cda-462e-b10f-298e733f8ef7
+ceTaskId=772fcc26-0ecf-4ff7-88e5-b3762ef99808
+ceTaskUrl=http://localhost:9000/api/ce/task?id=772fcc26-0ecf-4ff7-88e5-b3762ef99808

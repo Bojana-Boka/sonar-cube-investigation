@@ -24,6 +24,7 @@
 		3483E6782C354B9500ABDEF2 /* ExampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3483E6772C354B9500ABDEF2 /* ExampleClass.swift */; };
 		3483E67A2C3551A100ABDEF2 /* .swiftlint in Resources */ = {isa = PBXBuildFile; fileRef = 3483E6792C3551A100ABDEF2 /* .swiftlint */; };
 		3483E67E2C3554CE00ABDEF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3483E67D2C3554CE00ABDEF2 /* ViewController.swift */; };
+		3483E6822C35731200ABDEF2 /* BadClass.c in Sources */ = {isa = PBXBuildFile; fileRef = 3483E6812C35731200ABDEF2 /* BadClass.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,9 @@
 		3483E6772C354B9500ABDEF2 /* ExampleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleClass.swift; sourceTree = "<group>"; };
 		3483E6792C3551A100ABDEF2 /* .swiftlint */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint; sourceTree = "<group>"; };
 		3483E67D2C3554CE00ABDEF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3483E67F2C35731100ABDEF2 /* SonarCubeUIKitTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SonarCubeUIKitTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		3483E6802C35731200ABDEF2 /* BadClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BadClass.h; sourceTree = "<group>"; };
+		3483E6812C35731200ABDEF2 /* BadClass.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BadClass.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 		347EBE772C2EA60100CBF8A6 = {
 			isa = PBXGroup;
 			children = (
+				3483E6802C35731200ABDEF2 /* BadClass.h */,
+				3483E6812C35731200ABDEF2 /* BadClass.c */,
 				3483E67D2C3554CE00ABDEF2 /* ViewController.swift */,
 				3483E6772C354B9500ABDEF2 /* ExampleClass.swift */,
 				3483E6752C35438200ABDEF2 /* MassiveClassNo2.swift */,
@@ -105,6 +111,7 @@
 				347EBE992C2EA60500CBF8A6 /* SonarCubeUIKitTestTests */,
 				347EBEA32C2EA60500CBF8A6 /* SonarCubeUIKitTestUITests */,
 				347EBE812C2EA60100CBF8A6 /* Products */,
+				3483E67F2C35731100ABDEF2 /* SonarCubeUIKitTest-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -219,6 +226,7 @@
 				TargetAttributes = {
 					347EBE7F2C2EA60100CBF8A6 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 					347EBE952C2EA60500CBF8A6 = {
 						CreatedOnToolsVersion = 15.4;
@@ -286,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3483E6822C35731200ABDEF2 /* BadClass.c in Sources */,
 				347EBE882C2EA60100CBF8A6 /* ViewController.swift in Sources */,
 				3483E6782C354B9500ABDEF2 /* ExampleClass.swift in Sources */,
 				347EBE842C2EA60100CBF8A6 /* AppDelegate.swift in Sources */,
@@ -472,6 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -489,6 +499,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "sonar-cube.SonarCubeUIKitTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SonarCubeUIKitTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -499,6 +511,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -516,6 +529,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "sonar-cube.SonarCubeUIKitTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SonarCubeUIKitTest-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
