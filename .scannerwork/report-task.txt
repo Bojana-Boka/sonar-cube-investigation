@@ -1,6 +1,6 @@
-projectKey=SonarCubeUIKitTest
+projectKey=SonarInvestigation
 serverUrl=http://localhost:9000
 serverVersion=10.6.0.92116
-dashboardUrl=http://localhost:9000/dashboard?id=SonarCubeUIKitTest
-ceTaskId=b4cfa762-5156-4915-8c08-18a5d1b31de3
-ceTaskUrl=http://localhost:9000/api/ce/task?id=b4cfa762-5156-4915-8c08-18a5d1b31de3
+dashboardUrl=http://localhost:9000/dashboard?id=SonarInvestigation
+ceTaskId=c497550a-0ced-48a0-911d-d9d417e06174
+ceTaskUrl=http://localhost:9000/api/ce/task?id=c497550a-0ced-48a0-911d-d9d417e06174
