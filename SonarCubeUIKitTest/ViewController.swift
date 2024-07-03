@@ -24,8 +24,10 @@ class ViewController: UIViewController {
 
         // Konstruktor klase
         var name = "B"
-    var address = "adress"
+    var address: String? = "adress"
     var age = ""
+    var interest = ""
+    var interests = ""
     
     
     
@@ -173,8 +175,7 @@ class ViewController: UIViewController {
     
     func generateReport() -> String {
         let reportHeader = "Report for \(name)"
-        let reportBody = "Age: \(age)\nInterests: \(interests.joined(separator: ", "))\nAddress: \(address ?? "Unknown")"
-        return "\(reportHeader)\n\(reportBody)"
+        return "\(reportHeader)\n"
     }
     
     deinit {
